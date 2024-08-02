@@ -104,7 +104,28 @@ margin-right: 30px;
 .text-primary{
   color:  rgb(255, 144, 14);
 }
-/* some fact related style*/
+/*feature section related style*/
+.feature{
+  gap: 90px;
+}
+#feature-section-title{
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.feature-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+ 
+}
+/* some fact related styles*/
 .facts-container{
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -180,7 +201,8 @@ justify-content: center;
     margin: 50px auto;
   }
  }
- .sponsors-companies{
+ .sponsors-companies, .facts-container{
   grid-template-columns: repeat(3,1fr);
   gap: 50px;
+  justify-items: center;
  }
